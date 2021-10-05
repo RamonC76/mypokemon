@@ -18,6 +18,7 @@ gem 'puma', '~> 5.0'
 ## Gemfile for Rails 3+
 gem 'will_paginate', '~>3.1.1'
 gem 'will_paginate-bootstrap'
+gem 'pagy', '~> 3.5'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

@@ -1,3 +1,4 @@
 class ApplicationController < ActionController::Base
-  include Pagination
+  include Pagy::Backend
+
 end

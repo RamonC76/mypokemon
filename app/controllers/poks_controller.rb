@@ -1,6 +1,6 @@
 class PoksController < ApplicationController
   def index
-    @pokemons = Pokemon.all
-    @pokemons.then(&paginate)
+    #@pokemons = Pokemon.all
+    @pagy, @pokemons = pagy(Pokemon.all)
   end
 end
